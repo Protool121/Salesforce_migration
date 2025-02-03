@@ -38,8 +38,6 @@ class Salesrunner():
         print(results)
         # SalesforceSalesforce.bulk2.Opportunity.update(df,batch_size=10000,use_serial=True)
         
-        
-        
         FileName = io.BytesIO()
         df.to_csv(FileName, index=False)
         try:
