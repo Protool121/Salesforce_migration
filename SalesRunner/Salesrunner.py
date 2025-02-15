@@ -5,7 +5,7 @@ from tabulate import tabulate
 
 class Salesrunner():
     resource = sessions.resource(service_name='s3')
-    client   = sessions.client(service_name  ='s3')
+    client   = sessions.client  (service_name='s3')
 
     
     def __init__(self,BucketName, Key,FileName):
